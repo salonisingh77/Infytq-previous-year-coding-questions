@@ -1,5 +1,5 @@
 s=input()
-print(s)
+
 a=""
 m=0
 k=s.find("4")
