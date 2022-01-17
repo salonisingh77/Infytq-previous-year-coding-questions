@@ -13,8 +13,8 @@ for i in s:
     for j in n:
         sum +=(int(j)**2)
     if(sum%2==0):
-        sm=sr[l-2:l]
-        print(sm+sr[0:l-2],end=' ')
+        sm=sr[l-1]
+        print(sm+sr[0:l-1],end=' ')
     else:
-        sm=sr[0]
-        print(sr[1:l-1]+sm,end=' ')
+        sm=sr[0:2]
+        print(sr[2:l]+sm,end=' ')
